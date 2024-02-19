@@ -67,7 +67,8 @@
      including descriptions of the implementation and how it relates to the real-life example. Ensure clarity in the code structure and functionality.
  A) 
        
-
+       LINKED LIST ( MUSIC PLAYER ) : Professor please refer from PR LINK 
+       BINARY TREE ( CALCULATER )   : Professor please refer from PR LINK 
 
               
            
