@@ -1,0 +1,73 @@
+                                                           
+                                                                   Data Structures Mid Exam 
+
+ 1. Explanation of Real-Life Scenarios (5 points each): Provide a detailed description of each real-life scenario 
+    where a linked list and a binary tree are suitable data structures. Explain the context and how each structure is utilized.
+ A) 
+     In our daily life we use many objects which included Data structures .
+     There are many algorithms in DS in that most famous and frequently we use Linked list and Binary search for example caluclater , music player ,train reservation 
+     and many.
+   Real-Life Scenarios examples for linked list and Binary trees are 
+     LINKED LIST : 
+                  > Structure : In music player we create a player list as a favriot music list .
+                  > Discription :  every song in the musiclis can be represented as a node in a linked list.
+                                   Each node contains information like song title , album , artist and etc... and 
+                                   address to the next song in the list.
+                  >Implimentation : linked list is suitablr for music player because it contins a sequentional order 
+                                  When a person adds a song to the music list then it is added to the end of the linked list.
+     BINARY TREE : 
+                  > Structure : we use caluclater for addition , subtraction and all mathematical operations.           
+                  > Discription : Binary tree involves breaking down the expression into individual operands and operators and constructing a tree structure  
+                                  the binary tree have 3 different expression with may involed by uses chooice 
+                                   1.Inorder 2.Postorder 3.Preorder  .
+                  > Implimentation :
+                                      for example 2 * 4 + 6 = ?
+                                                                *
+                                                               / \
+                                                              2   +
+                                                                 / \
+                                                                4   6
+                                            in this way the binary tree works 2 * 4 + 6 = 20 .
+
+
+  2. Explanation of Data Structure Suitability (5 points each): Justify why the chosen data structure is suitable for the respective scenario. 
+     Discuss the advantages of using a linked list or a binary tree in each context.
+
+ A)
+    from the above Scenario Music player and Caluclator are best example for linked list and Binary trees because 
+    [Advantages for linked list ( Music player )] :
+       Linked lists manage the music list because it have ability to offer sequential access to elements( songs ).
+       When we are adds a song to a music list, it directly attaches to the end of the linked list. same wise, 
+       Deleting a song completly  form the list adjusting the references between nodes.
+       Linked lists efficiently handle these operations without the need for contiguous memory allocation.
+   
+           __________________________       ____________     ________         __________               ____________       
+          |           |               |      |           |    |       |       |         |             |           |                           
+          |  Node 1   |  Node2        |      | Node 3    |    |Node 4 |       |Node 5   | . . . . . . |  Node N   |                          
+           __________________________       ____________     ________          _________               _____________     
+     
+     [Advntage of using Binary tree ( Calculator )] :
+              > Binary tree involves breaking down the expression into individual operands and operators and constructing a tree structure  
+                the binary tree have 3 different expression with may involed by uses chooice 
+                1.Inorder 2.Postorder 3.Preorder  .  
+              > It take less time complexity to solve the given Mathematical operations 
+              > Binary trees can be memory-efficient compared to other data structures for representing mathematical expressions .
+              > Binary trees naturally capture this hierarchi make them easy to work with for expression evaluation and manipulation.
+ 
+                                               for example 2 * 4 + 6 = ?
+                                                                *                     > Inorder expression : 2 * 4 + 6
+                                                               / \                    > Postorder expression : 2 4 * 6 +
+                                                              2   +                   > preorder expression : + * 2 4 6
+
+                                                                 / \
+                                                                4   6
+                                            in this way the binary tree works 2 * 4 + 6 = 20 .
+
+  3. Coding, Commenting, Description, and PR (15 points each): Write well-commented code for each scenario, 
+     including descriptions of the implementation and how it relates to the real-life example. Ensure clarity in the code structure and functionality.
+ A) 
+       
+
+
+              
+           
