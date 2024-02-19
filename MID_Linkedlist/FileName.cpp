@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <iostream> // input output statment
+#include <string>  // in this program we use string operaions 
 
 using namespace std;
 
